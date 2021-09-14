@@ -11,7 +11,7 @@ function calcular(){
     let n2=Number(nota2.value)
     let n3=Number(nota3.value)
     let n4=Number(nota4.value)
-    let media = ((n1+n2+n3+n4) /4).toFixed(1)
+    let media = ((n1+n2+n3+n4) /4).toFixed(2)
 
     if(media>=7){
         let resultado= document.getElementById("res")
