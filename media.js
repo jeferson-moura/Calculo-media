@@ -7,11 +7,8 @@ function calcular(){
     if(nota1.value.length ==0 || nota2.value.length ==0 || nota3.value.length==0 || nota4.value.length==0){
         alert("[ERRO! POR FAVOR DIGITE AS NOTAS]")
     }
-    let n1=Number(nota1.value)
-    let n2=Number(nota2.value)
-    let n3=Number(nota3.value)
-    let n4=Number(nota4.value)
-    let media = ((n1+n2+n3+n4) /4).toFixed(2)
+    let notas=Number(nota1, nota2,nota3,nota4).value
+    let media = ((nota1+nota2+nota3+nota4) /4).toFixed(2)
 
     if(media>=7){
         let resultado= document.getElementById("res")
